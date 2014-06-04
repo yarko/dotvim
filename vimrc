@@ -1,5 +1,9 @@
-" From http://justinlilly.com/vim/vim_and_python.html
+" for https://github.com/tpope/vim-pathogen
+execute pathogen#infect()
+execute pathogen#helptags()
 syntax on
+filetype plugin indent on
+" From http://justinlilly.com/vim/vim_and_python.html
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\
 \ [%l/%L\ (%p%%)
