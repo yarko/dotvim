@@ -1,6 +1,11 @@
 [submodule "bundle/fugitive"]
 	path = bundle/fugitive
 	url = http://github.com/tpope/vim-fugitive.git
+    ignore = dirty
 [submodule "bundle/snippetsEmu"]
 	path = bundle/snippetsEmu
 	url = git@github.com:vim-scripts/snippetsEmu.git
+    ignore = dirty
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:scrooloose/nerdtree.git
