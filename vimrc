@@ -7,7 +7,6 @@ filetype plugin indent on
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\
 \ [%l/%L\ (%p%%)
-filetype plugin indent on
 au FileType py set autoindent
 au FileType py set smartindent
 au FileType py set textwidth=79 " PEP-8 Friendly
@@ -49,4 +48,8 @@ map <silent>,h <C-w>h
 map <silent>,j <C-w>j
 map <silent>,k <C-w>k
 map <silent>,l <C-w>l
+
+" PyDiction:
+let g:pydiction_location='/Users/yak007/.vim/bundle/pydiction/complete-dict'
+"let g:pydiction_menu_height=8  "default = 8
 

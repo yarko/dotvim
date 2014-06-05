@@ -18,4 +18,7 @@
 	path = bundle/taglist
 	url = git@github.com:yarko/vim-taglist.git
     ignore = dirty
-
+[submodule "bundle/pydiction"]
+	path = bundle/pydiction
+	url = https://github.com/rkulla/pydiction.git
+    ignore = dirty
