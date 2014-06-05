@@ -34,3 +34,7 @@
 	path = bundle/webapi-vim
 	url = git@github.com:mattn/webapi-vim.git
     ignore = dirty
+[submodule "bundle/syntastic"]
+	path = bundle/syntastic
+	url = git@github.com:scrooloose/syntastic.git
+    ignore = dirty
