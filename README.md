@@ -31,7 +31,7 @@ install.sh is essentially doing this:
     git commit -a -m 'Install some_bundle.vim bundle'
 
 
-## Further addons
+### Further addons
 
 I didn't like that  `vimogen` wasn't tracking submodules (making my setup un-clonable).
 I also didn't like the numeric menu aspect, but that's minor.
