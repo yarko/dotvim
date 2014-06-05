@@ -38,9 +38,9 @@ I also didn't like the numeric menu aspect, but that's minor.
 
 When I need it, I may add other simple shell scripts to:
 
- * vimupdate [optional-target, default: all]
- * vimremove [plugin-name]
- * vimlist
+ * `vimupdate [optional-target, default: all]`
+ * `vimremove [plugin-name]`
+ * `vimlist`
 
 
 General reference:
