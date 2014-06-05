@@ -60,7 +60,7 @@ I got tired of `git merge`s for things like `brew` **failing** after a commit co
 
 I got tired of all the ways it wasn't acting like a *lean, mean vim*.
 
-So I started with [Justin Lilly's](http://justinlilly.com/vim/vim_and_python.html) basic setup for starters,
+So I started with [Justin Abrahm's](http://justinlilly.com/vim/vim_and_python.html) basic setup for starters,
 made sure all is cloneable, pushed, and pullable to a new environment/platform.
 
 Much better.
