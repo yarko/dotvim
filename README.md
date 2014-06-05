@@ -15,7 +15,7 @@ Switch to the `~/.vim` directory, and fetch submodules:
 
 To add a plugin:
 
-    git submodeul add http://github.com/someone/some_bundle.git bundle/some_bundle
+    git submodule add http://github.com/someone/some_bundle.git bundle/some_bundle
     echo '    ignore = dirty' >> .gitmodules
     git commit -a -m 'Install some_bundle.vim bundle'
 
