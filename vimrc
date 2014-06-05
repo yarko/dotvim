@@ -53,3 +53,4 @@ map <silent>,l <C-w>l
 let g:pydiction_location='/Users/yak007/.vim/bundle/pydiction/complete-dict'
 "let g:pydiction_menu_height=8  "default = 8
 
+let mapleader = ","
