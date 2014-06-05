@@ -30,9 +30,22 @@ install.sh is essentially doing this:
     echo '    ignore = dirty' >> .gitmodules
     git commit -a -m 'Install some_bundle.vim bundle'
 
+Further addons
+~~~~~~~~~~~~~~
+
+I didn't like that  `vimogen` wasn't tracking submodules (making my setup un-clonable).
+I also didn't like the numeric menu aspect, but that's minor.
+
+When I need it, I may add other simple shell scripts to:
+
+ * vimupdate [optional-target, default: all]
+ * vimremove [plugin-name]
+ * vimlist
+
+
 General reference:
 ------------------
-   [pathogen-syncgronizing](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
+   [pathogen-synchronizing](http://vimcasts.org/episodes/synchronizing-plugins-with-git-submodules-and-pathogen/)
 
 Why am I doing this?
 --------------------
