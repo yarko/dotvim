@@ -30,6 +30,10 @@ let NERDTreeSortOrder=['^__\.py$', '\/$', '*', '\.swp$',  '\~$']
 let NERDTreeShowBookmarks=1
 map <F3> :NERDTreeToggle<CR>
 
+" Open NERDTREE when vim starts:
+autocmd StdinReadPre * let s:std_in=1
+autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
 " Syntax for multiple tag files are
 " set tags=/my/dir1/tags, /my/dir2/tags
 set tags=tags;$HOME/.vim/tags/
