@@ -58,3 +58,8 @@ let g:pydiction_location='/Users/yak007/.vim/bundle/pydiction/complete-dict'
 "let g:pydiction_menu_height=8  "default = 8
 
 let mapleader = ","
+
+" Explore - builtin alternative to NERDTree
+let g:netrw_liststyle=3
+map <leader>k :Ex<cr>
+
