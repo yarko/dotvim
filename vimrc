@@ -7,9 +7,13 @@ filetype plugin indent on
 set list listchars=tab:▷⋅,trail:⋅,nbsp:⋅
 set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\
 \ [%l/%L\ (%p%%)
-au FileType py set autoindent
-au FileType py set smartindent
-au FileType py set textwidth=79 " PEP-8 Friendly
+au FileType python set autoindent
+au FileType python set smartindent
+au FileType python set textwidth=79 " PEP-8 Friendly
+au BufEnter *.py nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<CR>
+
+" for online teaching:
+set guifont=Menlo\ Regular:h20
 
 set ts=4 sw=4 expandtab
 
