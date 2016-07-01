@@ -13,13 +13,14 @@ au FileType python set textwidth=79 " PEP-8 Friendly
 au BufEnter *.py nnoremap <buffer> <F9> :exec '!python' shellescape(@%, 1)<CR>
 
 " for online teaching:
-set guifont=Menlo\ Regular:h20
+" set guifont=Menlo\ Regular:h20
+set guifont=Menlo\ Regular:h14
 
 set ts=4 sw=4 expandtab
 
 " color scheme:
-"set background=dark
-"colorscheme solarized
+set background=dark
+colorscheme solarized
 let g:solarized_termcolors=256
 let g:solarized_termtrans=1
 let g:solarized_contrast="normal"

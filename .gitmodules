@@ -48,3 +48,7 @@
 	path = bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
     ignore = dirty
+[submodule "bundle/preview"]
+	path = bundle/preview
+	url = git@github.com:greyblake/vim-preview.git
+    ignore = dirty
